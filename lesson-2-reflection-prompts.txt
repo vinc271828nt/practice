@@ -1,18 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
-
+setup a repository and make master banch .Do it for version control.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
-How can you use the staging area to make sure you have one commit per logical
+staging area store all files modified and not yet committed.working directory is a folder where all commit files exist.repository is a collection of all files will be commit and .git file.
+How can you use the staging area to make sure you have one commit per logical 
 change?
-
+when i made up change, i add the file to the staging area and commit 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+add some new feature to the program.different branches will not affect each other.
 How do the diagrams help you visualize the branch structure?
-
-What is the result of merging two branches together? Why do we represent it in
+the diagram shows all the commit reachable to the current branch.
+What is the result of merging two branches together? Why do we represent it in 
 the diagram the way we do?
-
-What are the pros and cons of Git's automatic merging vs. always doing merges
+the new head have both code modified.the way we merge is the most reasonable way.
+What are the pros and cons of Git's automatic merging vs. always doing merges 
 manually?
+auto means convenient and no conflict.
+manual means we want to merge definitely.
